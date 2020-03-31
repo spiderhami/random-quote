@@ -1,0 +1,47 @@
+/* css variables */
+:root {
+    --color: #ddd;
+}
+
+/* specific css */
+.wrapper {
+    height: 100vh;
+}
+
+.qbox {
+    width: 500px;
+    padding: 30px 40px;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.author {
+    text-align: right;
+}
+
+.qbox > a {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+}
+
+.toggle {
+    font-weight: 500;
+}
+
+.bg-update {
+    background: var(--color);
+    transition: background-color 2s;
+}
+
+.color-update {
+    transition: opacity 1s; /* fade-in */
+}
+
+.fade-out { 
+    opacity: 0;
+    transition: opacity .8s; /* fade-out */
+}
